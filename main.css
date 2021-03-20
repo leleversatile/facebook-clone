@@ -72,30 +72,9 @@ a{
 }
 
 
-@media only screen and (min-width: 360px) {
-}
 
-    body {
-        font-size: 20px;
-    }
-    
-    input, form-control {
-        width: calc(100% - 3em);
-        position: relative;
-    }
-
-    .mb-3 {
-        position: static;
-    }
-    .container-fluid {
-         display: -moz-inline-stack;
-    }
-        
-    .row {
-        display: block;
-        text-align: center;
-    }
   
+}
 
 
 
