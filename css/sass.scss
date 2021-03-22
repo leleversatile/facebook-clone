@@ -1,13 +1,17 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 26px;
+    font-size: 18px;
     height: 100vh;
+    margin: 0;
 }
 
   
 .container-fluid {
     background-color: #eeeeee;
     margin-top: -2%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+   
 
     
 }
@@ -18,9 +22,8 @@ input, form-control {
 
 }
 
-.content {
-    background-color: #eeeeee;
-    margin-bottom: 7rem;
+h4 {
+    margin: 2em 1em 1em;
 }
 
 .color {
@@ -37,16 +40,17 @@ input, form-control {
    }
 
    .card {
-       margin-left: 23%;
+       margin-left: 15%;
        background-color:white;
-       margin-top: -10%;
+       margin-top: 4rem;
        border-radius: 12px;
+       margin-top: -13%;
    }
 
 
 .h4 {
     line-height: 1.7rem;
-    font-weight: bold;
+    
 }
 
 h1 {
@@ -58,27 +62,28 @@ h1 {
 }
 
 .form-control{
-    width: calc(100% - 15em);
+    width: calc(100% - 3em);
     padding: 1.5em;
     align-items: center;
     align-content: center;
     margin-top: 0%;
-    margin-left: 30%;
     border-radius: 8px;
     text-decoration: black;
-    margin-top: 0.5em;
+    margin-top: 3.5em;
+    margin-right: 45%;
     
 
 }
 
 .btn {
-    width: calc(100% - 14em);
+    width: calc(100% - 5em);
     padding: 1em;
-    margin-left: 8.9em;
     border-radius: 8px;
     font-weight: bold;
     font-size: 18px;
     align-content: center;
+    margin-bottom: 2.5em;
+    margin-top: 1rem;
 }
 
 .btn-success{
@@ -86,7 +91,7 @@ h1 {
     width: calc(100% - 16em);
     padding: 1em;
     border-radius: 9px;
-    margin-left: 14%;
+    margin-left: 28%;
     font-weight: bold;
     font-size: 18px;
     white-space: nowrap;
@@ -132,39 +137,161 @@ a{
 }
 
 
-@media (min-width: 660px) {
-     
-        
-      
-         .card {
-             padding-right: 2.5em;
-         }
+@media screen and(max-width: 480px) {
 
-         .w-75.text-center.btn-success {
-             margin-bottom: 5%;
-         }
- 
-         
-666667%;
-            }
-          
-             .card {
-                 padding-right: 2.5em;
-             }
-    
-             .w-75.text-center.btn-success {
-                 margin-bottom: 5%;
-            
-             }   
-            
+
+
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        height: 100vh;
+        margin: 0;
     }
-     
-
-     
-
     
-
-
-
-
+      
+    .container-fluid {
+        background-color: #eeeeee;
+        margin-top: -2%;
+        margin-left: 0%;
+        margin-bottom: 10%;
+       
+    
+        
+    }
+    
+    input, form-control {
+        width: calc(100% - 3em);
+        
+    
+    }
+    
    
+    .color {
+        color: black;
+    }
+    
+    .img-fluid{
+         width: 320px;
+         margin-top: 2%;
+       }
+       
+       .form-label {
+           color: black;
+       }
+    
+        .card {
+           margin-left: 15%;
+           background-color:white;
+           margin-top: 4rem;
+           border-radius: 12px;
+           margin-top: -13%;
+       }
+    
+    
+    .h4 {
+        line-height: 1.7rem;
+        
+    }
+    
+    h1 {
+        text-align: center;
+        margin: .5em auto 0;
+        color: black;
+        font-weight: normal;
+    
+    }
+    
+    .form-control{
+        width: calc(100% - 3em);
+        padding: 1.5em;
+        align-items: center;
+        align-content: center;
+        margin-top: 0%;
+        border-radius: 8px;
+        text-decoration: black;
+        margin-top: 3.5em;
+        margin-right: 45%;
+        
+    
+    }
+    
+    .btn {
+        width: calc(100% - 5em);
+        padding: 1em;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 18px;
+        align-content: center;
+        margin-bottom: 2.5em;
+        margin-top: 1rem;
+    }
+    
+    .btn-success{
+        background-color: #42b72a;
+        width: calc(100% - 16em);
+        padding: 1em;
+        border-radius: 9px;
+        margin-left: 28%;
+        font-weight: bold;
+        font-size: 18px;
+        white-space: nowrap;
+            
+    
+    }
+    
+    
+    
+    .footer a{
+        text-decoration: none;
+    }
+    
+    .footer {
+        text-align: center;
+        background-color: white;
+    }
+    
+    a{
+        text-align: left;
+        
+    }
+    
+    
+    .col {
+        background-color: #eeeeee;
+        align-content: center;
+    }
+    
+    .form-label {
+         margin-left: 13%;
+         text-align: left;
+    }
+    
+    .forgot {
+        margin-left: 33%;
+        text-decoration: none;
+    }
+    
+    .horizontal {
+            color: black;
+    
+    }
+    
+}
+
+@media screen and(mix-width: 500px) {
+     
+
+            body{
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-size: 16px;
+                    height: 100vh;
+                    margin: 0;
+                }
+            .container-fluid {
+                  display: grid;
+                  grid-template-columns: 55% auto;
+            }
+}
+
+
+ 

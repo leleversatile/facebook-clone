@@ -1,0 +1,247 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  margin: 0;
+}
+
+.container-fluid {
+  background-color: #eeeeee;
+  margin-top: -2%;
+  margin-left: 0%;
+  margin-bottom: 10%;
+}
+
+input, form-control {
+  width: calc(100% - 3em);
+}
+
+h4 {
+  margin: 2em 1em 1em;
+}
+
+.color {
+  color: black;
+}
+
+.img-fluid {
+  width: 320px;
+  margin-top: 2%;
+}
+
+.form-label {
+  color: black;
+}
+
+.card {
+  margin-left: 15%;
+  background-color: white;
+  margin-top: 4rem;
+  border-radius: 12px;
+  margin-top: -13%;
+}
+
+.h4 {
+  line-height: 1.7rem;
+}
+
+h1 {
+  text-align: center;
+  margin: .5em auto 0;
+  color: black;
+  font-weight: normal;
+}
+
+.form-control {
+  width: calc(100% - 3em);
+  padding: 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 0%;
+  border-radius: 8px;
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  margin-top: 3.5em;
+  margin-right: 45%;
+}
+
+.btn {
+  width: calc(100% - 5em);
+  padding: 1em;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 2.5em;
+  margin-top: 1rem;
+}
+
+.btn-success {
+  background-color: #42b72a;
+  width: calc(100% - 16em);
+  padding: 1em;
+  border-radius: 9px;
+  margin-left: 28%;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+}
+
+a {
+  text-align: left;
+}
+
+.col {
+  background-color: #eeeeee;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.form-label {
+  margin-left: 13%;
+  text-align: left;
+}
+
+.forgot {
+  margin-left: 33%;
+  text-decoration: none;
+}
+
+.horizontal {
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+  }
+  .container-fluid {
+    background-color: #eeeeee;
+    margin-top: -2%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+  input, form-control {
+    width: calc(100% - 3em);
+  }
+  .color {
+    color: black;
+  }
+  .img-fluid {
+    width: 320px;
+    margin-top: 2%;
+  }
+  .form-label {
+    color: black;
+  }
+  .card {
+    margin-left: 15%;
+    background-color: white;
+    margin-top: 4rem;
+    border-radius: 12px;
+    margin-top: -13%;
+  }
+  .h4 {
+    line-height: 1.7rem;
+  }
+  h1 {
+    text-align: center;
+    margin: .5em auto 0;
+    color: black;
+    font-weight: normal;
+  }
+  .form-control {
+    width: calc(100% - 3em);
+    padding: 1.5em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-top: 0%;
+    border-radius: 8px;
+    -webkit-text-decoration: black;
+            text-decoration: black;
+    margin-top: 3.5em;
+    margin-right: 45%;
+  }
+  .btn {
+    width: calc(100% - 5em);
+    padding: 1em;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-bottom: 2.5em;
+    margin-top: 1rem;
+  }
+  .btn-success {
+    background-color: #42b72a;
+    width: calc(100% - 16em);
+    padding: 1em;
+    border-radius: 9px;
+    margin-left: 28%;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  .footer a {
+    text-decoration: none;
+  }
+  .footer {
+    text-align: center;
+    background-color: white;
+  }
+  a {
+    text-align: left;
+  }
+  .col {
+    background-color: #eeeeee;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .form-label {
+    margin-left: 13%;
+    text-align: left;
+  }
+  .forgot {
+    margin-left: 33%;
+    text-decoration: none;
+  }
+  .horizontal {
+    color: black;
+  }
+}
+
+@media screen and (mix-width: 500px) {
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+  }
+  .container-fluid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 55% auto;
+        grid-template-columns: 55% auto;
+  }
+}
+/*# sourceMappingURL=sass.css.map */
